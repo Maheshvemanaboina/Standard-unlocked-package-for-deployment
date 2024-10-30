@@ -5,6 +5,8 @@
 		<name>BusinessProcess</name>
 	</types>
 	<types>
+		<members>Case.Access_Type__c</members>
+		<members>Case.Business_Segment_new_helpdesk__c</members>
 		<members>Case.Business_Unit__c</members>
 		<members>Case.CPQ_Sub_Support_Types__c</members>
 		<members>Case.Support_Type__c</members>
