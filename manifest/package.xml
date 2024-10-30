@@ -10,6 +10,8 @@
 		<members>Case.Business_Unit__c</members>
 		<members>Case.CPQ_Sub_Support_Types__c</members>
 		<members>Case.Support_Type__c</members>
+		<members>Case.User_Type__c</members>
+		<members>Case.Case_Closer_Reason__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>

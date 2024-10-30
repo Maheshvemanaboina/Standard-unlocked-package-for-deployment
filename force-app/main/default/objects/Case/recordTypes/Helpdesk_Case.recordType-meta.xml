@@ -343,6 +343,33 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Case_Closer_Reason__c</picklist>
+        <values>
+            <fullName>Case Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response from Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Reproducible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Successfully Provisioned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Origin</picklist>
         <values>
             <fullName>Chatter</fullName>
@@ -506,6 +533,21 @@
         </values>
         <values>
             <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>User_Type__c</picklist>
+        <values>
+            <fullName>Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-System Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Admin</fullName>
             <default>false</default>
         </values>
     </picklistValues>
