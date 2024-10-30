@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Case.Helpdesk Support Process</members>
+		<name>BusinessProcess</name>
+	</types>
+	<types>
+		<members>Case.Business_Unit__c</members>
+		<members>Case.CPQ_Sub_Support_Types__c</members>
+		<members>Case.Support_Type__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>unfiled$public/Awaiting_Helpdesk_Customer_Response_Alert</members>
+		<members>unfiled$public/Helpdesk_Case_Closed_Alert</members>
+		<members>unfiled$public/Urgent_Priority_Helpdesk_Case_Alert</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>Helpdesk_Case_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Case_Email_Alerts</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>Case-Help Desk Case Page Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Case.Helpdesk_Case</members>
+		<name>RecordType</name>
+	</types>
+	<version>60.0</version>
+</Package>

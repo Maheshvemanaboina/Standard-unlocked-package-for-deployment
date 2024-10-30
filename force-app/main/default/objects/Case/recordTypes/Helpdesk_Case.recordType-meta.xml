@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Helpdesk_Case</fullName>
+    <active>true</active>
+    <businessProcess>Helpdesk Support Process</businessProcess>
+    <compactLayoutAssignment>Helpdesk_Case_Compact</compactLayoutAssignment>
+    <description>Helpdesk Case</description>
+    <label>Helpdesk Case</label>
+    <picklistValues>
+        <picklist>Business_Unit__c</picklist>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail %26 Americas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialised Nutrition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trading</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CPQ_Sub_Support_Types__c</picklist>
+        <values>
+            <fullName>Bill of Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Creation%2FCloning%2FEditing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing%2FFreight Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product%2FServices%2FListing Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FPricelist Approval %28Commercial Approval%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FPricelist Creation%2FCloning%2FEditing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FPricelist Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System%2FEmail Notifications</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Helpdesk</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Case Resolved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Support_Type__c</picklist>
+        <values>
+            <fullName>Access %26 License Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounts %26 Contact Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community  Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dashboard%2FReporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Sales Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quoting %26 Pricing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FC Internal Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not grounded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Make</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remaining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26OP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
