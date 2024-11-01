@@ -688,6 +688,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Issue_Type__c</picklist>
+        <values>
+            <fullName>Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Locale__c</picklist>
         <values>
             <fullName>Chinese %28Simplified%2C China%29</fullName>
