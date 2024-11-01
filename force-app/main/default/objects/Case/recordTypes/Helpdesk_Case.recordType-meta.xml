@@ -26,6 +26,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Business_Segment__c</picklist>
         <values>
             <fullName>APAC</fullName>
@@ -771,16 +786,8 @@
     <picklistValues>
         <picklist>Priority</picklist>
         <values>
-            <fullName>High</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Regular</fullName>
+            <fullName>Low</fullName>
             <default>true</default>
-        </values>
-        <values>
-            <fullName>Urgent</fullName>
-            <default>false</default>
         </values>
     </picklistValues>
     <picklistValues>

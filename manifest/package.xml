@@ -44,7 +44,6 @@
 		<members>Case.SLA_Picklist__c</members>
 		<members>Case.Status</members>
 		<members>Case.Support_Type__c</members>
-		<members>Case.Support_Type__c</members>
 		<members>Case.Time_Zone__c</members>
 		<members>Case.User_Email_Address__c</members>
 		<members>Case.User_First_Name__c</members>
@@ -52,6 +51,8 @@
 		<members>Case.User_Profile__c</members>
 		<members>Case.User_Type__c</members>
 		<members>Case.Warning__c</members>
+		<members>Case.Approval_Status__c</members>
+		<members>Case.Case_Age_in_Days__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
