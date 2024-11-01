@@ -764,31 +764,7 @@
     <picklistValues>
         <picklist>Origin</picklist>
         <values>
-            <fullName>Chatter</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Distributor Connect</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Email</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Employee Community</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Helpdesk</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Phone</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Web</fullName>
             <default>false</default>
         </values>
     </picklistValues>

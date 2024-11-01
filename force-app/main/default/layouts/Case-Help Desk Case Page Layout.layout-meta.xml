@@ -8,6 +8,7 @@
     <excludeButtons>Delete</excludeButtons>
     <excludeButtons>MassAccept</excludeButtons>
     <excludeButtons>MergeCase</excludeButtons>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>PrintableView</excludeButtons>
     <excludeButtons>RecordShareHierarchy</excludeButtons>
     <excludeButtons>StartOutboundConversation</excludeButtons>
@@ -57,7 +58,6 @@
         </rightComponents>
         <useInlineFiltersInConsole>true</useInlineFiltersInConsole>
     </feedLayout>
-    <headers>PersonalTagging</headers>
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
@@ -179,10 +179,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Locale__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Language</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

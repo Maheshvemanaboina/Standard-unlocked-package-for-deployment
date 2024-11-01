@@ -452,29 +452,6 @@
                     <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Language</fieldItem>
-                <identifier>RecordLanguageField</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 AND 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.Access_Type__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>New User</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.User_Type__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>Community</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.User_Profile__c</fieldItem>
                 <identifier>RecordUser_Profile_cField</identifier>
                 <visibilityRule>

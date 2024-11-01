@@ -30,6 +30,7 @@
 		<members>Case.H1_SAP_Number__c</members>
 		<members>Case.H5_Account_Name__c</members>
 		<members>Case.H5_SAP_Number__c</members>
+		<members>Case.Issue_Type__c</members>
 		<members>Case.Job_Title__c</members>
 		<members>Case.Locale__c</members>
 		<members>Case.Origin</members>
@@ -51,8 +52,11 @@
 		<members>Case.User_Profile__c</members>
 		<members>Case.User_Type__c</members>
 		<members>Case.Warning__c</members>
-		<members>Case.Issue_Type__c</members>
 		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Case</members>
+		<name>CustomObject</name>
 	</types>
 	<types>
 		<members>unfiled$public/Awaiting_Helpdesk_Customer_Response_Alert</members>
