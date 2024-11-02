@@ -8,6 +8,7 @@
 		<members>Case.Access_Type__c</members>
 		<members>Case.Access_Type__c</members>
 		<members>Case.Affected_User__c</members>
+		<members>Case.Approval_Status__c</members>
 		<members>Case.Business_Segment__c</members>
 		<members>Case.Business_Segment_new_helpdesk__c</members>
 		<members>Case.Business_Segment_new_helpdesk__c</members>
@@ -16,6 +17,7 @@
 		<members>Case.CPQ_License__c</members>
 		<members>Case.CPQ_Sub_Support_Types__c</members>
 		<members>Case.CPQ_Sub_Support_Types__c</members>
+		<members>Case.Case_Age_in_Days__c</members>
 		<members>Case.Case_Category__c</members>
 		<members>Case.Case_Closer_Reason__c</members>
 		<members>Case.Case_Record_Type__c</members>
@@ -51,8 +53,6 @@
 		<members>Case.User_Profile__c</members>
 		<members>Case.User_Type__c</members>
 		<members>Case.Warning__c</members>
-		<members>Case.Approval_Status__c</members>
-		<members>Case.Case_Age_in_Days__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
@@ -81,6 +81,10 @@
 	<types>
 		<members>Case-Help Desk Case Page Layout</members>
 		<name>Layout</name>
+	</types>
+	<types>
+		<members>SendEmail</members>
+		<name>QuickAction</name>
 	</types>
 	<types>
 		<members>Case.Helpdesk_Case</members>

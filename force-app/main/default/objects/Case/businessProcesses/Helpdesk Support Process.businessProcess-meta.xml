@@ -4,10 +4,6 @@
     <description>Support Process for Helpdesk Cases</description>
     <isActive>true</isActive>
     <values>
-        <fullName>Assigned</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>Awaiting Customer Closure Confirmation</fullName>
         <default>false</default>
     </values>
